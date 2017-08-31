@@ -1,0 +1,32 @@
+@import "var";
+::-webkit-input-placeholder{
+
+      font-size: 24px;
+  color: grey;
+
+   }
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fontFamily;
+  background: $bgColor;
+}
+body{
+  font-size: 16px;/*no*/
+}
+li {
+  list-style: none;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
